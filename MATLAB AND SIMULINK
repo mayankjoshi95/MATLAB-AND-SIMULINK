@@ -1,0 +1,31 @@
+PLOTS 
+how to see a figure ?
+
+1.SEE FIGURE IS USING NEW OPTION
+2. in the ccommand window type figure
+
+1.Labeling Plot
+legend('X','Y')
+ title('X and Y variable')
+ xlabel('X')
+ ylabel('Y')
+ 
+ 2.LINE PLOT
+  X=1:.1:5;
+plot(X)
+ title('2-D line plot')
+ xlabel('sample')
+ ylabel('value')
+
+AREA PLOT
+out=20*rand(50,1)
+area(out)
+
+sales=[1 2 3 4;3 4 2 1; 3 2 1 1;1 2 3 4]
+sales =
+     1     2     3     4
+     3     4     2     1
+     3     2     1     1
+     1     2     3     4
+     bar(sales)
+legend('alice','bob','charle','trust')
