@@ -69,3 +69,5 @@ sin_x=sin(x);
 >> subplot(2,2,2)
 >> plot(cos_x)
 >> title('cos(x)')
+clear x #it removes variable for m the workspace
+clear y
