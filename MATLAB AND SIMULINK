@@ -71,3 +71,17 @@ sin_x=sin(x);
 >> title('cos(x)')
 clear x #it removes variable for m the workspace
 clear y
+clear all#all the variable from the workspace 
+
+ close Figure 1##if we want to close figure 1 
+close all;
+clc;#to close the command window 
+##how to print values available in the matlab 
+
+disp(A)
+        1234
+>> exm='This iss a string'
+exm =
+    'This iss a string'
+>> disp(exm)
+This iss a string
