@@ -41,5 +41,8 @@ EXPENSES =
 >> pie(EXPENSES,labels)
 
 pie3(EXPENSES,labels)#for 3D plot
-
-
+5.logarithmic plot
+logspace(-1,2) from 10^x to 10^y
+y=exp(x)
+ semilogy(z)#yaxis is in power of 10 and x is in the normal power 
+loglog(x,y)#logarithmic x and logarithmic y scale 
