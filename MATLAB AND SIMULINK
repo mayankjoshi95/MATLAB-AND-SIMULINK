@@ -17,7 +17,7 @@ plot(X)
  xlabel('sample')
  ylabel('value')
 
-AREA PLOT
+3.AREA PLOT
 out=20*rand(50,1)
 area(out)
 
@@ -29,3 +29,17 @@ sales =
      1     2     3     4
      bar(sales)
 legend('alice','bob','charle','trust')
+
+4. PIE CHART
+labels={'electricyt' ,'wATER','CABLE','INTERNET','GROCERIES'}
+labels =
+  1×5 cell array
+    {'electricyt'}    {'wATER'}    {'CABLE'}    {'INTERNET'}    {'GROCERIES'}
+>> EXPENSES=[1,2,3,4,5]
+EXPENSES =
+     1     2     3     4     5
+>> pie(EXPENSES,labels)
+
+pie3(EXPENSES,labels)#for 3D plot
+
+
