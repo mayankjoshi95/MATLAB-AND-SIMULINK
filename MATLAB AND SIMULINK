@@ -59,4 +59,13 @@ loglog(x,y)#logarithmic x and logarithmic y scale
 legend('X','Y','Z')
 
 Subplots
-
+sin_x=sin(x);
+>> cos_x=cos(x);
+>> y=x*2;
+>> subplot(2,2,1);
+>> subplot(2,2,1)
+>> plot(sin_x)
+>> title('sin(x)')
+>> subplot(2,2,2)
+>> plot(cos_x)
+>> title('cos(x)')
