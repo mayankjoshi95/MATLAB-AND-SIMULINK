@@ -46,3 +46,17 @@ logspace(-1,2) from 10^x to 10^y
 y=exp(x)
  semilogy(z)#yaxis is in power of 10 and x is in the normal power 
 loglog(x,y)#logarithmic x and logarithmic y scale 
+
+
+##MULTIPLE VARIABLE PLOT ON THE MATLAB
+ X=50*rand(100,1);
+>> Y=X-50;
+>> plot(X)
+>> hold on;
+>> plot(Y)
+>> Z=X+50;
+>> plot(Z)
+legend('X','Y','Z')
+
+Subplots
+
