@@ -170,3 +170,11 @@ C =
     66    78    90
     78    93   108
     90   108   126     
+
+
+
+SIMULINK 
+
+1. IN ORDER TO LINK TO WORKSPACE USE SAVE FROM GO TO ISNK AND USE FROM SINK TO WORKSPACE .
+
+2.integration drag and drop the block from commonly used block.
