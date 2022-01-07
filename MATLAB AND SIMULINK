@@ -178,3 +178,4 @@ SIMULINK
 1. IN ORDER TO LINK TO WORKSPACE USE SAVE FROM GO TO ISNK AND USE FROM SINK TO WORKSPACE .
 
 2.integration drag and drop the block from commonly used block.
+then go to the sources library to generate constant blocks as input. 
