@@ -186,3 +186,4 @@ then go to the sources library to generate constant blocks as input.
 
 3.HDL code genration 
 4.Embedded system Integration
+5 to connect simulink and system genrator we use GATEWAY OUT .
