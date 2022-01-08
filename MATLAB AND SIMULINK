@@ -179,3 +179,7 @@ SIMULINK
 
 2.integration drag and drop the block from commonly used block.
 then go to the sources library to generate constant blocks as input. 
+3. to call thhe simulink model from matlab use sim('project name')
+4.HDL Workflow Advisor will provide the step by step processs for generating both HDL and also genrating the interace model 
+1.set target device(IP core generatioon and zed board )
+2.set interfaces 
